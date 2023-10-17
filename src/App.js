@@ -3,10 +3,10 @@ import { v4 as uuid } from "uuid";
 import { useState } from "react";
 
 const itemsFromBackend = [
-  { id: uuid(), content: "1st task" },
-  { id: uuid(), content: "2nd task" },
-  { id: uuid(), content: "3rd task" },
-  { id: uuid(), content: "4th task" },
+  { id: uuid(), content: "To run build in SurveyServ" },
+  { id: uuid(), content: "To debug the prod. responses missing issue" },
+  { id: uuid(), content: "Prepare DSA and Design Patterns for Interview" },
+  { id: uuid(), content: "Prepare projects running for Interview" },
 ];
 
 const columnsFromBackend = {
